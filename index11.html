@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UPDATED PORTFOLIO 11</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  	<link rel="stylesheet" type="text/css" href="styles11.css">
+  	<link rel="icon" type="text/css" href="favicon.ico">
+
+  	<style type="text/css">
+  		@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap');
+  		@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+  		@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+  		@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+  	</style>
+
+	<script>
+	$(document).ready(function(){
+	  // Add smooth scrolling to all links
+	  $("a").on('click', function(event) {
+
+	    // Make sure this.hash has a value before overriding default behavior
+	    if (this.hash !== "") {
+	      // Prevent default anchor click behavior
+	      event.preventDefault();
+
+	      // Store hash
+	      var hash = this.hash;
+
+	      // Using jQuery's animate() method to add smooth page scroll
+	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+	      $('html, body').animate({
+	        scrollTop: $(hash).offset().top
+	      }, 800, function(){
+	   
+	        // Add hash (#) to URL when done scrolling (default click behavior)
+	        window.location.hash = hash;
+	      });
+	    } // End if
+	  });
+	});
+
+	</script>
+
+
+</head>
+<body>
+
+<!----------------           OPEN NAVBAR     ------------------------------------------------------------>
+<section class="home" id="home">
+
+<!----------------           OPEN HOME     ------------------------------------------------------------>
+
+	<div class="container-home" >
+		<center><p class="name-heading" style="color: white;font-family: 'Prata', serif;line-height: 70px;" >Hello. I'm <span style="color: #307672;"> Kishan Rathod</span>,<br><span style="" class="main-text">A <span style="color: #307672;">Web Developer</span> whose interests also expands in <span style="color: #307672;">Content Creation <span style="color: white">and</span> UI</span>.<br> <!--<span style="font-size: 32px">To know more about me, continue to surf</span>--></span></p></center><br>
+		<div class="cv-btn" style="position: relative;z-index: 1"><a href="#about-me">View my work</a></div>
+		<img src="Images/scooter.svg" class="scooter" style="z-index: 1" onclick="this.style.left='1100px'">
+	</div>
+</section>	
+
+<!----------------           CLOSE HOME     ------------------------------------------------------------>
+
+<!----------------           OPEN ABOUT-ME ------------------------------------------------------------>
+
+<section class="about-me" id="about-me">
+	<nav class="navbar navbar-expand-md navbar-light container-fluid desk">
+	<a href="#home" class="navbar-brand text-center xyz-brand1"><img class="mylogo"src="Images/myLogo2.png"></a>
+
+    <button type="button" class="navbar-toggler " data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon" style="text-align: right;height: 70px;"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse" >
+        <div class="navbar-nav" style="">            
+        	<a href="#home" class="nav-item nav-link active" style="color: white" >Home</a>
+            <a href="#about-me" class="nav-item nav-link" style="color: white">About</a>
+        </div>
+            <a href="#home" class="navbar-brand xyz-brand" ><img class="mylogo"src="Images/myLogo2.png"></a>
+        <div class="navbar-nav">
+            <a href="#work" class="nav-item nav-link"style="color: white">Work</a>
+            <a href="#contact" class="nav-item nav-link" tabindex="-1" style="color: white">Contact</a>
+        </div>
+    </div>
+	</nav>
+<!----------------           CLOSE NAVBAR     ------------------------------------------------------------>
+
+
+	<div class="container-fluid">
+	<div class="about-me-content container">
+		<div class="row">
+			<div class="col-md-4">
+				<img class="myPic" src="Images/kishan image.jpeg">
+			</div>
+			<div class="content-column col-md-8" style="">
+				<h2 class="abt-me-heading" style="color: #307672;font-family: 'Exo 2', sans-serif;letter-spacing: 4px;"><u>ABOUT ME</u></h2>
+				<p class="abt-me-para" style="text-align: justify;">Being an IT geek always excites and encourages me to make this beautiful world advanced and simpler to deal with.I am 19, and planning to spend my coming years discovering the wonders of Python, UX/UI design which showcases as my piece of interest.I am also getting much amazed by flutter and its beautiful widgets,which enhanced my focus towards Android App Development.Currenlty pursuing my Bachelors Degree at Charusat University. Being an ambivert, i like to wander a lot with people and at another time ,loves to find myself sitting at roof top and being lost.So now you can scroll down, u won't regret doing that...</p>
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
+<!----------------           CLOSE ABOUT-ME ------------------------------------------------------------>
+
+
+<!----------------           OPEN WORK ------------------------------------------------------------>
+
+<section id="work" class="work">
+	<div class="container-fluid workbg">
+		
+	
+	<div class="work container projects">
+		<h1 class="text-center" style="color: #307672;font-family: 'Exo 2', sans-serif;letter-spacing: 4px;"><u>PROJECTS</u></h1><br><br><br>
+
+	<div class="row">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center" >
+        <div class="panel-heading1">
+          <img src="Images/newsFlash.png" style="border-radius: 50px;height: 70px;width: 70px">
+          <h4>newsFlash</h4>
+        </div>
+        <div class="panel-body">
+          <p>With the help of an amazing framework called flutter built a News Application named newsFlash which takes daily updates news directly from the web.</p>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12" >
+      <div class="panel panel-default text-center" >
+        <div class="panel-heading2">
+          <img src="Images/travelgo.png" style="border-radius: 50px;height: 70px;width: 70px">
+          <h4>TravelGO</h4>
+        </div>
+        <div class="panel-body">
+          <p>
+            This is a travel website showing different to explore all over the world, And highlighting many parts of India.
+          </p>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12" >
+      <div class="panel panel-default text-center">
+        <div class="panel-heading3" >
+          <img src="Images/shopping.png" style="border-radius: 50px;height: 70px;width: 70px">
+          <h4>quickShip</h4>
+        </div>
+        <div class="panel-body">
+          <p>
+            This is an Android Application which was the first approach towards app building and which was also a part of Software Group Project in my University.
+          </p>
+        </div>
+      </div>      
+    </div>    
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading4">
+          <img src="Images/laptop2.jpg" style="border-radius: 50px;height: 70px;width: 70px">
+          <h4>Coming Soon..</h4>
+        </div>
+        <div class="panel-body">
+          <p></p>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12" >
+      <div class="panel panel-default text-center" >
+        <div class="panel-heading5">
+          <img src="Images/laptop2.jpg" style="border-radius: 50px;height: 70px;width: 70px">
+          <h4>Coming Soon..</h4>
+        </div>
+        <div class="panel-body">
+          <p>
+           
+          </p>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12" >
+      <div class="panel panel-default text-center">
+        <div class="panel-heading6">
+          <img src="Images/laptop2.jpg" style="border-radius: 50px;height: 70px;width: 70px">
+          <h4>Coming Soon..</h4>
+        </div>
+        <div class="panel-body">
+          <p>
+           
+          </p>
+        </div>
+      </div>      
+    </div>    
+  </div>
+  </div>
+</div>
+
+
+<!------------------------OPEN BLOGS ------------------------->
+	<div class="blogs container-fluid">
+		<div class="container">
+		<h1 class="text-center" style="color: #307672;font-family: 'Exo 2', sans-serif;letter-spacing: 4px;"><u>BLOGS</u></h1><br><br>
+		<h5>Explore some of the thoughts bombarding in my psyche, which I'd elaborated on paper</h5>
+		<br><br>
+		<div class="row">
+			<div class="col-md-4 card">
+				<img src="Images/attitude.jpg">
+				<div class="overlay">
+    				<div class="text"><b>Alter your Attitide</b><br><span style="color: pink">psyche</span></div>
+
+    				<a href="https://medium.com/@kishanrathodgdd/alter-your-attitude-6db2c035d9dc"><div class="button">View more</div></a>
+  				</div>
+			</div>
+			<div class="col-md-4 card">
+				<img src="Images/covid19.jpg">
+				<div class="overlay">
+    				<div class="text"><b>COVID'19</b><br><span style="color: pink">A boon or curse</span></div>
+
+    				<a href="https://kishanrathodgdd.medium.com/covid19-how-it-has-changed-the-world-4b38d942fca8"><div class="button" id="">View more</div></a>
+  				</div>
+			</div>
+			<div class="col-md-4 card">
+				<img src="Images/dsa.jpg">
+				<div class="overlay">
+    				<div class="text"><b>Data Structures</b><br><span style="color: pink">future</span></div>
+
+    				<a href="https://kishanrathodgdd.medium.com/how-can-dsa-help-in-advancing-your-career-17a656d75908"><div class="button" id="">View more</div></a>
+  				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 card">
+				<img src="Images/pic1.jpg">
+				<div class="overlay">
+    				<div class="text"><b>Coming Soon..</b><br><span style="color: pink">xyz/123</span></div>
+
+    				<div class="button" id="">View more</div>
+  				</div>
+			</div>
+			<div class="col-md-4 card">
+				<img src="Images/pic2.jpg">
+				<div class="overlay">
+    				<div class="text"><b>Coming Soon..</b><br><span style="color: pink">xyz/123</span></div>
+
+    				<div class="button" id="">View more</div>
+  				</div>
+			</div>
+			<div class="col-md-4 card">
+				<img src="Images/pic3.jpg">
+				<div class="overlay">
+    				<div class="text"><b>Coming Soon..</b><br><span style="color: pink">xyz/123</span></div>
+
+    				<div class="button" id="">View more</div>
+  				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 card">
+				<img src="Images/pic4.jpg">
+				<div class="overlay">
+    				<div class="text"><b>Coming Soon..</b><br><span style="color: pink">xyz/123</span></div>
+
+    				<div class="button" id="">View more</div>
+  				</div>
+			</div>
+			<div class="col-md-4 card">
+				<img src="Images/pic5.jpg">
+				<div class="overlay">
+    				<div class="text"><b>Coming Soon..</b><br><span style="color: pink">xyz/123</span></div>
+
+    				<div class="button" id="">View more</div>
+  				</div>
+			</div>
+			<div class="col-md-4 card">
+				<img src="Images/pic6.jpg">
+				<div class="overlay">
+    				<div class="text"><b>Coming Soon..</b><br><span style="color: pink">xyz/123</span></div>
+
+    				<div class="button" id="">View more</div>
+  				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+  
+<!------------------------CLOSE BLOGS ------------------------->
+</section>
+<!----------------           CLOSE WORK ------------------------------------------------------------>
+
+
+<!----------------           OPEN CONTACT ------------------------------------------------------------>
+<section class="contact" id="contact">
+	<div class="container-fluid" style="background-color: #c5d7bd;min-height: 100vh">
+		<div class="container contact">
+			<h1 class="text-center" style="color: #307672;font-family: 'Exo 2', sans-serif;letter-spacing: 4px;"><u>CONTACT ME</u></h1><br><br>
+
+
+			<div class="row">
+				<div class="col-md-4">
+					<img src="Images/svg contact.svg" class="svg-contact">
+				</div>
+				<div class="col-md-2">
+					
+				</div>
+				<div class="col-md-6">
+					<p style="font-size: 24px;color: green; position: absolute;top: 80px;"><b
+						>Have a question or want to work together?</b></p>
+					<form action="mailto:kishanrathodgdd@gmail.com" method="post" enctype="text/plain">
+						<input type="text" name="name" placeholder="Name"><br>
+
+						<input type="Email" name="email" placeholder="Email ID"><br>
+
+						<textarea placeholder="Your message" rows="5"></textarea>
+
+						<div class="cv-btn"><a href="#contact">Submit</a></div>
+					</form>
+				</div>
+			</div>	
+		</div>
+	</div>
+</section>
+<!----------------           CLOSE CONTACT ------------------------------------------------------------>
+
+
+
+
+
+
+
+<canvas style="position: absolute;top: 0px;left: 0px"></canvas>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
+<script type="text/javascript">
+		// Init Stats
+var stats = new Stats();
+stats.setMode(0);
+stats.domElement.style.display = "none";
+stats.domElement.style.position = 'absolute';
+stats.domElement.style.left = '0px';
+stats.domElement.style.top = '0px';
+document.body.appendChild(stats.domElement);
+
+
+/*!
+ * Mantis.js / jQuery / Zepto.js plugin for Constellation
+ * @version 1.2.2
+ * @author Acauã Montiel <contato@acauamontiel.com.br>
+ * @license http://acaua.mit-license.org/
+ */
+(function ($, window) {
+	var $window = $(window);
+	/**
+	 * Makes a nice constellation on canvas
+	 * @constructor Constellation
+	 */
+	function Constellation (canvas, options) {
+		var $canvas = $(canvas),
+			context = canvas.getContext('2d'),
+			defaults = {
+				star: {
+					color: 'rgba(255, 255, 255, .5)',
+					width: 1,
+					randomWidth: true
+				},
+				line: {
+					color: 'rgba(255, 255, 255, .5)',
+					width: 0.2
+				},
+				position: {
+					x: 0,
+					y: 0
+				},
+				width: window.innerWidth,
+				height: window.innerHeight,
+				velocity: 0.1,
+				length: 100,
+				distance: 120,
+				radius: 150,
+				stars: []
+			},
+			config = $.extend(true, {}, defaults, options);
+
+		function Star () {
+			this.x = Math.random() * canvas.width;
+			this.y = Math.random() * canvas.height;
+
+			this.vx = (config.velocity - (Math.random() * 0.5));
+			this.vy = (config.velocity - (Math.random() * 0.5));
+
+			this.radius = config.star.randomWidth ? (Math.random() * config.star.width) : config.star.width;
+		}
+
+		Star.prototype = {
+			create: function(){
+				context.beginPath();
+				context.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
+				context.fill();
+			},
+
+			animate: function(){
+				var i;
+				for (i = 0; i < 100; i++) {
+
+					var star = config.stars[i];
+
+					if (star.y < 0 || star.y > canvas.height) {
+						star.vx = star.vx;
+						star.vy = - star.vy;
+					} else if (star.x < 0 || star.x > canvas.width) {
+						star.vx = - star.vx;
+						star.vy = star.vy;
+					}
+
+					star.x += star.vx;
+					star.y += star.vy;
+				}
+			},
+
+			line: function(){
+				var length = 100,
+					iStar,
+					jStar,
+					i,
+					j;
+
+				for (i = 0; i < length; i++) {
+					for (j = 0; j < length; j++) {
+						iStar = config.stars[i];
+						jStar = config.stars[j];
+
+						if (
+							(iStar.x - jStar.x) < config.distance &&
+							(iStar.y - jStar.y) < config.distance &&
+							(iStar.x - jStar.x) > - config.distance &&
+							(iStar.y - jStar.y) > - config.distance
+						) {
+							if (
+								(iStar.x - config.position.x) < config.radius &&
+								(iStar.y - config.position.y) < config.radius &&
+								(iStar.x - config.position.x) > - config.radius &&
+								(iStar.y - config.position.y) > - config.radius
+							) {
+								context.beginPath();
+								context.moveTo(iStar.x, iStar.y);
+								context.lineTo(jStar.x, jStar.y);
+								context.stroke();
+								context.closePath();
+							}
+						}
+					}
+				}
+			}
+		};
+
+		this.createStars = function () {
+			var length = 100,
+				star,
+				i;
+
+			context.clearRect(0, 0, canvas.width, canvas.height);
+
+			for (i = 0; i < length; i++) {
+				config.stars.push(new Star());
+				star = config.stars[i];
+
+				star.create();
+			}
+
+			star.line();
+			star.animate();
+		};
+
+		this.setCanvas = function () {
+			canvas.width = config.width;
+			canvas.height = config.height;
+		};
+
+		this.setContext = function () {
+			context.fillStyle = config.star.color;
+			context.strokeStyle = config.line.color;
+			context.lineWidth = config.line.width;
+		};
+
+		this.setInitialPosition = function () {
+			if (!options || !options.hasOwnProperty('position')) {
+				config.position = {
+					x: canvas.width * 0.5,
+					y: canvas.height * 0.5
+				};
+			}
+		};
+
+		this.loop = function (callback) {
+			callback();
+
+			this.rAF = window.requestAnimationFrame(function () {
+				stats.begin();
+				this.loop(callback);
+				stats.end();
+			}.bind(this));
+		};
+
+		this.handlers = {
+			window: {
+				mousemove: function(e){
+					config.position.x = e.pageX - $canvas.offset().left;
+					config.position.y = e.pageY - $canvas.offset().top;
+				},
+				resize: function () {
+					window.cancelAnimationFrame(this.rAF);
+				}
+			}
+		};
+
+		this.bind = function () {
+			$window
+				.on('mousemove', this.handlers.window.mousemove)
+				.on('resize', this.handlers.window.resize.bind(this));
+		};
+
+		this.unbind = function () {
+			$window
+				.off('mousemove', this.handlers.window.mousemove)
+				.off('resize', this.handlers.window.resize);
+		}
+
+		this.init = function () {
+			this.setCanvas();
+			this.setContext();
+			this.setInitialPosition();
+			this.loop(this.createStars);
+			this.bind();
+		};
+	}
+
+	function instantiate(element, options) {
+		var c = new Constellation(element, options);
+		c.init();
+	}
+
+	$.fn.constellation = function (options) {
+		return this.each(function () {
+			$window.on('resize', () => {
+				instantiate(this, options);
+			});
+
+			instantiate(this, options);
+		});
+	};
+})($, window);
+
+// Init plugin
+$('canvas').constellation({
+	star: {
+		width: 3
+	},
+	line: {
+		color: 'rgba(255, 255, 255, .5)'
+	},
+	length: (window.innerWidth / 6),
+	radius: (window.innerWidth / 5)
+});
+	</script>
+</body>
+</html>
